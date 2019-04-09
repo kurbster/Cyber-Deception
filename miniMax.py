@@ -1,3 +1,5 @@
+import util
+
 class MiniMaxAgent:
     def __init__(self, depth=3):
         self.depth = depth
@@ -15,5 +17,10 @@ class MiniMaxAgent:
 
 
 if __name__ == '__main__':
+    networkConfig = []
     miniMax = MiniMaxAgent()
+    for i in range(miniMax.depth):
+        obsCon = util.ObservedConfiguration()
+        networkConfig.append(obsCon)
     miniMax.miniMaxTree()
+    print networkConfig.__len__()
