@@ -1,4 +1,4 @@
-class observedConfiguration:
+class ObservedConfiguration:
     def __init__(self):
         self.ravioli = 0
 
