@@ -1,4 +1,4 @@
-import util
+import networkManager
 import sys
 
 class MiniMaxAgent:
@@ -12,8 +12,8 @@ class MiniMaxAgent:
 
     # This is the function that will implement the minimax algorithm
     # We will use the values from the evaluation function to do this
-    def miniMax(self):
-        return 0
+    def greedyMiniMax(self, tsn):
+        return tsn
 
 
 if __name__ == '__main__':
@@ -21,7 +21,8 @@ if __name__ == '__main__':
     # The default minimax depth is 3
     miniMax = MiniMaxAgent()
     # This would be our F in the game theory paper which is the true state of the network
-    tsn = util.createNetwork(sys.argv[1])
-    osn = util.createOC()
+    tsn = networkManager.createNetwork(sys.argv[1])
+    osn = networkManager.createOC()
+    print "hi"
 
 

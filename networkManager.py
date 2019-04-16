@@ -9,7 +9,6 @@ class ObservedConfiguration:
         self.masked = []
 
 
-
 class TrueConfiguration:
     def __init__(self, os, web, ssh, files, utility):
         self.os = os
@@ -37,6 +36,7 @@ def createConfiguration(attributes):
     utility = random.randint(2, 10)
     config = TrueConfiguration(attributes[0], attributes[1], attributes[2], attributes[3], utility)
     return config
+
 
 # Do we want the full list from CyberVAN
 possibleOS = ['Mac', 'Windows', 'Linux']
