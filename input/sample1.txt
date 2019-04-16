@@ -1,0 +1,3 @@
+Red Hat Linux,Tomcat,OpenSSH,Sensitive
+Red Hat Linux,Nginx,OpenSSH,Public
+Windows 8,Nginx,OpenSSH,Internal
