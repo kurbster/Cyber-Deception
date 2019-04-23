@@ -51,7 +51,8 @@ def createOC():
             allOC.append(myOC)
     return allOC
 
-
+def networkToText(tsn, osn):
+    return 0
 
 
 
