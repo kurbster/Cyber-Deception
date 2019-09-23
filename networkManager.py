@@ -1,8 +1,8 @@
 class ObservedConfiguration:
     def __init__(self, os):
-        self.os = os
+        self.OS = os
         # This will hold the TCs this OC can mask
-        self.masked = []
+        self.masked = [os]
 
 
 class TrueConfiguration:
@@ -20,7 +20,7 @@ def createNetwork(inputFile):
         for line in f:
             attributes = line.split(',')
             # The last attribute will have a newline character at the end of it so we remove it
-            attributes[-1] = attributes[-1].strip("\n")
+            attributes[-1] = attributes[-1].strip("\n").strip(" ")
             systems.append(createConfiguration(attributes))
     return systems
 
@@ -30,8 +30,7 @@ def createConfiguration(attributes):
     return TrueConfiguration(attributes[0], attributes[1])
 
 
-# Do we want the full list from CyberVAN
-possibleOS = ['Mac', 'Windows', 'Linux']
+possibleOS = ['Windows', 'Ubuntu', 'Metasploitable', 'Fedora']
 def createOSN():
     allOC = []
     for os in possibleOS:
