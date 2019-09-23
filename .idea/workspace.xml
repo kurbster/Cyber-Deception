@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abc9fa6b-8431-45c2-9c0e-607674fe3e90" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/miniMax.py" beforeDir="false" afterPath="$PROJECT_DIR$/miniMax.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/networkManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/networkManager.py" afterDir="false" />
-    </list>
+    <list default="true" id="abc9fa6b-8431-45c2-9c0e-607674fe3e90" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,44 +9,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.42375052">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/miniMax.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="36" column="70" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
-                  <folding>
-                    <element signature="e#0#21#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/networkManager.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="31" selection-start-line="31" selection-end-line="31" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../../../CSE471/Project2/multiagent/multiAgents.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2357" />
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/miniMax.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/networkManager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input/sample1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,12 +56,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/util.py" />
+        <option value="$PROJECT_DIR$/input/sample1.txt" />
         <option value="$PROJECT_DIR$/networkManager.py" />
         <option value="$PROJECT_DIR$/miniMax.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="1294" />
     <option name="height" value="1047" />
@@ -165,26 +157,39 @@
       <option name="project" value="LOCAL" />
       <updated>1555438893380</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Started the input from a text file and creating our network">
+      <created>1568936196454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568936196454</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixed bugs in the assign method and added a utility method that can calculate the total utility of our system. Fixed a lot of bugs that deal with manipulating the strategy and the currentOSN.">
+      <created>1569216213457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569216213457</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07762017" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15684713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3511111" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4377778" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49920383" weight="0.40965208" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4332211" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.033333335" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007962" side_tool="true" weight="0.35016835" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -195,7 +200,63 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Stuff" />
     <MESSAGE value="Started the input from a text file and creating our network" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started the input from a text file and creating our network" />
+    <MESSAGE value="Fixed bugs in the assign method and added a utility method that can calculate the total utility of our system. Fixed a lot of bugs that deal with manipulating the strategy and the currentOSN." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs in the assign method and added a utility method that can calculate the total utility of our system. Fixed a lot of bugs that deal with manipulating the strategy and the currentOSN." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/miniMax.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="newUtility.values()" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>strategy[system]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>strategy[oldOS]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>strategy[system].OS</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>currentOSN[oc]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>min(newUtility.values())</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>newUtility.values()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tc.OS == oc.OS</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../../CSE471/Project3/reinforcement/util.py">
@@ -213,26 +274,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/util.py" />
     <entry file="file://$PROJECT_DIR$/../../../CSE471/Project2/multiagent/multiAgents.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2357" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util.py" />
-    <entry file="file://$PROJECT_DIR$/input/sample1.txt">
+    <entry file="file://$PROJECT_DIR$/fileManager.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/sample1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/networkManager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="544">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/miniMax.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="36" column="70" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
+        <state relative-caret-position="323">
+          <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
